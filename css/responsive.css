@@ -1,0 +1,93 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 991px) {
+    #navigation{
+        background-color: black;
+    }
+    #navigation .nav-link{
+        line-height: 32px;
+    }
+    .navbar-brand img{
+        width: 4rem;
+    }
+    .navbar-toggler-icon i{
+        color: gold;
+    }
+    .banner-text h1{
+        font-size: 2.5rem;
+    }
+    .banner-text h2{
+        font-size: 1.5rem;
+        margin: 15px 0;
+    }
+    .banner-text h6{
+        font-size: 0.7rem;
+    }
+    .icons{
+        display: inline-block;
+        text-align: center;
+        padding: .5rem .5rem;   
+        cursor: pointer;
+        margin: 0;
+    
+    }
+    
+}
+
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 767px) {
+
+    .banner-text h1{
+        font-size: 2rem;
+    }
+    .banner-text h2{
+        font-size: 1.5rem;
+        margin: 15px 0;
+    }
+    .banner-text h6{
+        font-size: 0.7rem;
+    }
+    .banner-text .main-btn{
+        font-size: .8rem !important;
+    }
+    
+    .carousal_text{
+        font-size: .5rem;
+        padding: 0 10px;
+    }
+    .carousel-item img{
+        width: 60px;
+        border-radius: 50%;
+    }
+    .carousel-inner{
+        background-color: cadetblue;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+    .carousel-control-next-icon,.carousel-control-prev-icon{
+        position: relative;
+        top: 12px;
+    }
+    .explorefood_text p{
+        font-size: 10px;
+    }
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+}

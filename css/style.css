@@ -1,0 +1,248 @@
+@import url(../css/fonts.css);
+
+    /* font-family: Poppins; */
+    /* font-family: Roboto; */
+    /* font-family: oswald; */
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+    align-items: center;
+}
+
+::-webkit-scrollbar{
+    width:0.625rem;
+  }
+  ::-webkit-scrollbar-track{
+    background:white;
+  }
+  ::-webkit-scrollbar-thumb{
+    background:#ffc107;
+  }
+body{
+        font-family: Poppins;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+a{
+    color: #ffc107 !important;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+a:hover{
+    color: #eee !important;
+}
+
+.main-btn:hover{
+    color: #ffc107;
+    background: none;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.main-btn{
+    display: inline-block;
+    color: black;
+    padding: 0.5rem 1.5rem;
+    text-transform: capitalize;
+    border: 1px solid #ffc107;
+    background-color: #ffc107;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.navbar .nav-item{
+    padding: 0 1rem;
+}
+.navbar{
+ position: fixed;   
+ width: 100%;
+ z-index: 99;
+ background: transparent;
+ text-align: center;
+}
+.top-banner{
+    background:url('../images/bg/bg-1.jpg') no-repeat center center/cover;
+    padding: 13.5rem 0;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.banner-text h1{
+color: white;
+font-size: 4rem;
+font-weight: 600;
+text-transform: uppercase;
+}
+.banner-text h1 span{
+    color: #ffc107;
+font-weight: 600;
+
+}
+.banner-text h2{
+    color: green;
+}
+.banner-text h6{
+color: white;
+font-weight: 600;
+letter-spacing: 2px;
+margin-bottom: 3rem;
+}
+
+.sticky-on{
+    position: fixed;
+    width: 100%;
+    background-color:black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+.title{
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    margin: 3rem 0;
+    text-transform: capitalize;
+}
+.foods{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.3s linear;
+}
+.foods:hover{
+    transform: translateY(-5px);
+    background-color: #ffc107;
+}
+.foods .f_text{
+    text-transform: uppercase;
+    padding: 15px 0;    
+    color: black;
+    font-weight: 700;
+}
+#about{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+#about img{
+    border-radius: 5px;
+}
+.about_text h2{
+    color: green;
+    text-transform: capitalize;
+}
+.about_text p{
+    color: rgb(198, 189, 189);
+    margin: 20px 0;
+}
+.bg_img{
+    background-color: #ffc107;
+    margin: 2rem 0;
+}
+.about_text ul{
+    list-style: none;
+    color: rgb(198, 189, 189);
+    margin-top: 30px;
+}
+.about_text ul li{
+    position: relative;
+}
+.about_text ul li::before{
+    content: '\f00c';
+    color: #ffc107;
+    position: absolute;
+    left: -20px;
+    font-size: 20px;
+    vertical-align: middle;
+    text-align: center;
+}
+.explorefood_text{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.explorefood_text h2{
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 2rem;
+}
+.card, .card img{
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+.card-title{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.card-text{
+    color: #5d5c5c;
+    font-size: .8rem;
+    font-weight: 400;   
+}
+.carousel-item img{
+    width: 100px;
+    border-radius: 50%;
+}
+.carousel{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.carousal_text{
+    font-size: .9rem;
+    padding: 0 2rem;
+}
+.carousel-inner{
+    background-color: cadetblue;
+    padding: 4rem;
+    margin-bottom: 3rem;
+}
+.carousel-control-next-icon,.carousel-control-prev-icon{
+    position: relative;
+    top: 60px;
+}
+#icon{
+    text-align: center;
+}
+.icons{
+    display: inline-block;
+    text-align: center;
+    padding: 2rem 1rem;   
+    cursor: pointer;
+
+}
+.icons i{
+    color: white;
+    font-size: 1rem;
+}
+.icons i:hover{
+    color: #ffc107;
+}
+.footer{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
+#inputPassword2{
+    border: 2px solid white;
+    background: none;
+    color: white;
+}
+#inputPassword2:focus{
+    outline: none;
+    box-shadow: none;
+}
+.form_input{
+    justify-content: center;
+}
